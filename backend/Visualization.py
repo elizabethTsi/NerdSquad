@@ -19,14 +19,14 @@ coords = list(cart.values())
 for i in range(num_nodes):
     x_values.append(coords[i][0])
     y_values.append(coords[i][1])
-colors = ['#162347' for i in range(num_nodes)]
+colors = ["#1A49C9" for i in range(num_nodes)]
 colors[node_id.index(start_node)] = '#00ff1e'
 colors[node_id.index(end_node)] = '#dd4b39'
 
 
 net = Network(notebook = True, cdn_resources = "remote",
-    bgcolor = "#072B04",
-    font_color = "white",
+    bgcolor = "#00000000",
+    font_color = "black",
     height = "750px",
     width = "100%",
 )
@@ -45,6 +45,19 @@ for node in net.nodes:
 path = dijkstra(start_node, end_node)
 
 for i in range(len(path)-1):
-    net.add_edge(path[i],path[i+1],color="white")
+    net.add_edge(path[i],path[i+1],color="black")
 
 net.show("NerdSquad\\backend\\path.html")
+
+#adding background image
+with open("NerdSquad\\backend\\path.html", "r", encoding="utf-8") as f:
+    html = f.read()
+    
+html = html.replace(
+    "<body>",
+    '<body style="background-image: url(\'NerdSquad//backend//United_States.png\'); '
+    'background-size: cover; background-repeat: no-repeat;">'
+)
+
+with open("NerdSquad\\backend\\path.html", "w", encoding="utf-8") as f:
+    f.write(html)
