@@ -7,7 +7,7 @@ export default function Home() {
     <main className="opacity-50 bg-center bg-[url('/images/backgroundImage.jpg')] tracking-wider font-inter flex flex-col items-center justify-between gap-10 pt-20 min-h-screen">
       <div className="mb-20 flex flex-row items-center">
         <Image
-          src="/images/projectLogo.png"
+          src="/images/logo.png"
           alt="Project Logo"
           width={100}
           height={100}

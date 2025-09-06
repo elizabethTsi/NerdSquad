@@ -7,12 +7,12 @@ export default function Navbar() {
       <div className=" ml-3 flex flex-grow max-w-7xl items-center justify-start">
         <div className="flex flex-row w-4/5 gap-3 text-center">
           <Image
-            src="/images/projectLogo.png"
+            src="/images/logo.png"
             alt="Project Logo"
             width={40}
             height={40}
           />
-          <h1 className="text-lg text-center mt-2">ProjectName</h1>
+          <h1 className="text-lg text-center mt-2">Railroad Tracks</h1>
         </div>
         <div className="flex flex-row w-full justify-between mr-10">
           <h1 className="text-lg text-black">
