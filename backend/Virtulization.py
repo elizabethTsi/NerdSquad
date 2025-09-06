@@ -1,9 +1,12 @@
 import pyvis
 from pyvis.network import Network
 pyvis.__version__
-from dijkstra import dijkstra
+from dijkstra import dijkstra, cart
 
-start_node = []
+start_node = "a"
+end_note = "d"
+
+
 net = Network(notebook = True, cdn_resources = "remote",
     bgcolor = "#094804",
     font_color = "white",
@@ -17,8 +20,6 @@ title = []
 x = []
 y = []
 label = []
-
-
 
 
 net.add_nodes([1,2,3], value=[10, 10, 10],

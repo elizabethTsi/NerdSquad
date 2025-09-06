@@ -3,8 +3,16 @@ import math
 
 # representing the network
 # SAMPLE --> EXPANDED MORE FOR DEMO
-cart = {'a':(0, 0), 'b':(1, 1), 'c':(2, 3), 'd':(2, 6), 'e':(0, 5)} # coordinate --> calculating weights as distances
-adj = {'a':['b', 'c', 'e'], 'b':['a'], 'c':['a', 'd', 'e'], 'd':['c', 'e'], 'e':['a', 'c', 'd']} # adjacency dict
+cart = {'a':(0, 0), 
+        'b':(1, 1), 
+        'c':(2, 3), 
+        'd':(2, 6), 
+        'e':(0, 5)} # coordinate --> calculating weights as distances
+adj = {'a':['b', 'c', 'e'],
+       'b':['a'],
+       'c':['a', 'd', 'e'],
+       'd':['c', 'e'],
+       'e':['a', 'c', 'd']} # adjacency dict
 
 num_node_dict = my_dict = {x: y for x, y in dict(enumerate(list(cart.keys()))).items()} # order in network (1-n) : label
 node_num_dict = my_dict = {y: x for x, y in dict(enumerate(list(cart.keys()))).items()} # label : order in network (1-n)
