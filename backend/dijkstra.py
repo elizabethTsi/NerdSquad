@@ -4,10 +4,10 @@ import math
 # representing the network
 # SAMPLE --> EXPANDED MORE FOR DEMO
 cart = {'a':(0, 0), 
-        'b':(1, 1), 
-        'c':(2, 3), 
-        'd':(2, 6), 
-        'e':(0, 5)} # coordinate --> calculating weights as distances
+        'b':(100, 100), 
+        'c':(200, 300), 
+        'd':(200, 600), 
+        'e':(0, 500)} # coordinate --> calculating weights as distances
 adj = {'a':['b', 'c', 'e'],
        'b':['a'],
        'c':['a', 'd', 'e'],
