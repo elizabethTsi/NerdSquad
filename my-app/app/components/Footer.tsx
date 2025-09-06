@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import { useEffect, useState } from "react";
+
 export default function Footer() {
   return (
     <main className="flex-col opacity-70 pt-6 bg-scheme-600 text-scheme-150 font-inter flex items-center justify-start">
