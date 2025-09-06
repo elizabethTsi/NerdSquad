@@ -14,25 +14,35 @@ export default function Reporting() {
       </div>
       <div></div>
       {/*How the reporting works */}
-      <div className="flex flex-col w-full bg-scheme-700 flex-grow py-4">
+      <div className="flex flex-col items-center w-full bg-scheme-700 flex-grow py-4">
         <h1 className="pl-8 pt-6 text-scheme-150 font-bold uppercase text-4xl mb-4 font-inter">
-          <Link href="\reporting">Reporting</Link>
+          Add a new stop
         </h1>
-        <div className="flex flex-row justify-between px-6">
-          <div className="ml-2 flex flex-col">
-            <h1 className="text-2xl text-scheme-200 mb-2">Location!</h1>
-            <input
-              type="text"
-              className="h-10 p-4 rounded-lg border border-scheme-600"
-              placeholder="Location"
-            ></input>
+        <div className="flex flex-col items-center justify-between px-6">
+          <div className="ml-2 gap-10 flex flex-row items-center justify-center border ">
+            <div className="h-full flex-col text-center">
+              <h1 className="text-2xl text-scheme-200 mb-2">Location!</h1>
+              <input
+                type="text"
+                className="h-10 p-4 rounded-lg border border-scheme-600 text-center"
+                placeholder="Node Name"
+              ></input>
+            </div>
+            <div className="h-full flex-col text-center">
+              <h1 className="text-2xl text-scheme-200 mb-2">Neighbors!</h1>
+              <input
+                type="text"
+                className="h-10 p-4 rounded-lg border border-scheme-600 text-center"
+                placeholder="neighbor,neighbor"
+              ></input>
+            </div>
           </div>
-          <div className="border border-scheme-150 bg-gradient-to-tr from-scheme-300 via-scheme-200 to-scheme-175  w-1/3 rounded-lg p-5">
+          <div className="mt-8 text-center items-center justify-center border border-scheme-150 bg-gradient-to-tr from-scheme-300 via-scheme-200 to-scheme-175  max-w-7xl  rounded-lg p-5">
             <h1 className="text-2xl font-bold text-center mb-4">
               Why does this matter?
             </h1>
 
-            <p>
+            <p className="text-center">
               Reportin’ fresh hiding spots and friendly houses helped keep the
               journey secret and ever-changing, so pursuers wouldn’t find the
               same trails. This news kept the network strong, and gave hope that
