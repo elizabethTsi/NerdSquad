@@ -15,7 +15,7 @@ export default function Home() {
         />
         <div className="flex flex-col justify-between flex-grow h-full gap-3">
           <h1 className="text-6xl font-inter font-bold text-blue-600 ">
-            ProjectName!
+            Railroad Tracks
           </h1>
           <p className="font-inter pl-2">Find your way to freedom</p>
         </div>

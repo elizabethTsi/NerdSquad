@@ -12,7 +12,7 @@ export default function Reporting() {
           </h1>
         </div>
       </div>
-
+      <div></div>
       {/*How the reporting works */}
       <div className="flex flex-col w-full bg-scheme-700 flex-grow py-4">
         <h1 className="pl-8 pt-6 text-scheme-150 font-bold uppercase text-4xl mb-4 font-inter">
