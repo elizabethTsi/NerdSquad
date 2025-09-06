@@ -34,7 +34,7 @@ export default function Footer() {
             <Link href="/reporting">Reporting</Link>
           </h1>
           <h1 className="text-xl text-black">
-            <Link href="/about">Maps</Link>
+            <Link href="/maps">Maps</Link>
           </h1>
         </div>
       </div>
