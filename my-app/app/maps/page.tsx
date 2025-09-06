@@ -12,7 +12,6 @@ export default function Home() {
           </h1>
         </div>
       </div>
-
       {/*How the maps works */}
       <div className="flex flex-col w-full border border-scheme-200 bg-scheme-300 flex-grow py-4">
         <h1 className="pl-8 pt-6 text-scheme-150 font-bold uppercase text-4xl mb-4 font-inter">

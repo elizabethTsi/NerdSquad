@@ -45,7 +45,7 @@ for node in net.nodes:
 path = dijkstra(start_node, end_node)
 
 for i in range(len(path)-1):
-    net.add_edge(path[i],path[i+1],color="black")
+    net.add_edge(path[i],path[i+1],color="black", width=5)
 
 net.show("NerdSquad\\backend\\path.html")
 

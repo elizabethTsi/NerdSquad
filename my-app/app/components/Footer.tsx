@@ -24,7 +24,7 @@ export default function Footer() {
             height={50}
             className="filter invert"
           />
-          <h1 className="text-xl text-center mt-3">ProjectName</h1>
+          <h1 className="text-xl text-center mt-3">RailTracks</h1>
         </div>
         <div className="flex flex-row w-full justify-between mr-10">
           <h1 className="text-xl text-black">

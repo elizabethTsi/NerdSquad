@@ -25,7 +25,7 @@ export default function Navbar() {
             <Link href="/reporting">Reporting</Link>
           </h1>
           <h1 className="text-lg">
-            <Link href="/maps">Maps</Link>
+            <Link href="/backend/path.html">Maps</Link>
           </h1>
         </div>
       </div>
