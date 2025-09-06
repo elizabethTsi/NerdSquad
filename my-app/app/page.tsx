@@ -28,16 +28,22 @@ export default function Home() {
         </h1>
         <div className="flex flex-row justify-between px-6">
           <p className="text-scheme-150 text-lg w-2/3 pr-5 text-center">
-            Support others, report new safe name Support others, report new safe
-            name Support others, report new safe name Support others, report new
-            safe name Support others, report new safe name Support others,
-            report new safe nameSupport others, report new safe name Support
-            others, report new safe name Support others, report new safe
-            nameSupport others, report new safe name Support others, report new
-            safe name Support others, report new safe name
+            To report a location to the Underground Railroad, you must act with
+            absolute discretion and trust. First, ensure the place is truly
+            safe—no patrols, no eyes watching. Then, quietly pass the
+            information to a trusted conductor or messenger using coded
+            language, never speaking openly. Be clear but brief: describe the
+            location, how long it’s safe, and what supplies are available, using
+            signals like a lit lantern or a patterned quilt if needed. Avoid
+            using names, and only share details with those confirmed to be part
+            of the network. Once the message is delivered, fade back into the
+            background—because in this resistance, silence and secrecy save
+            lives.
           </p>
           <div className="border border-scheme-150 bg-gradient-to-tr from-scheme-300 via-scheme-200 to-scheme-175  w-1/3 rounded-lg p-5">
-            <h1 className="font-inter">Why does this matter?</h1>
+            <h1 className="text-2xl font-bold text-center mb-6">
+              Why does this matter?
+            </h1>
             <p>
               Reportin’ fresh hiding spots and friendly houses helped keep the
               journey secret and ever-changing, so pursuers wouldn’t find the

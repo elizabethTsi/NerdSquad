@@ -28,14 +28,15 @@ export default function Reporting() {
             ></input>
           </div>
           <div className="border border-scheme-150 bg-gradient-to-tr from-scheme-300 via-scheme-200 to-scheme-175  w-1/3 rounded-lg p-5">
-            <h1 className="font-inter">Why does this matter?</h1>
+            <h1 className="text-2xl font-bold text-center mb-4">
+              Why does this matter?
+            </h1>
+
             <p>
-              This matters so that just like you we can save others blah blah
-              blah blahThis matters so that just like you we can save others
-              blah blah blah blahThis matters so that just like you we can save
-              others blah blah blah blahThis matters so that just like you we
-              can save others blah blah blah blahThis matters so that just like
-              you we can save others blah blah blah blah
+              Reportin’ fresh hiding spots and friendly houses helped keep the
+              journey secret and ever-changing, so pursuers wouldn’t find the
+              same trails. This news kept the network strong, and gave hope that
+              freedom’s road would always have a place to rest.
             </p>
           </div>
         </div>

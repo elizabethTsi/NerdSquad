@@ -23,36 +23,53 @@ export default function Home() {
             <h1 className="text-2xl font-bold text-center">
               Why does this matter?
             </h1>
-            <p>find maps blah </p>
+            <p>
+              Trustin’ in the map, the star, and the careful timing gave hope to
+              those who dared to run. Without these guides, many would be lost
+              to fear, caught, or turned back. But with them, the promise of a
+              new life shined brighter than any darkness.{" "}
+            </p>
           </div>
           {/*Good reasons of maps */}
-          <div className="flex flex-row pl-5 flex-grow  justify-evenly ">
+          <div className="flex gap-10 text-sm w-2/3 flex-col sm:flex-row pl-5 flex-grow justify-evenly ">
             <div className="flex flex-col">
-              <div className="border rounded-full border-scheme-700 w-10 h-10 items-center justify-center mx-auto">
+              <div className="border mb-2  rounded-full border-scheme-700 w-20 h-20 items-center justify-center mx-auto">
                 <MapPin
                   size={24}
-                  className="mt-1 h-4/5 w-4/5 mx-auto my-auto color-scheme-700"
+                  className="mt-2 h-4/5 w-4/5 mx-auto my-auto color-scheme-700"
                 ></MapPin>
               </div>
-              <p className="text-center">Find your way safely</p>
+              <p className="text-center">
+                This humble map be a guide for those seekin’ freedom, showin’
+                secret paths and safe places hid from prying eyes. Without it,
+                wanderin’ lost could mean capture or worse.
+              </p>
             </div>
             <div className="flex flex-col">
-              <div className="border rounded-full border-scheme-700 w-10 h-10 items-center justify-center mx-auto">
+              <div className="border mb-2  rounded-full border-scheme-700 w-20 h-20 items-center justify-center mx-auto">
                 <Star
                   size={24}
-                  className="mt-1 h-4/5 w-4/5 mx-auto my-auto color-scheme-700"
+                  className="mt-2 h-4/5 w-4/5 mx-auto my-auto color-scheme-700"
                 ></Star>
               </div>
-              <p className="text-center">Guarantee</p>
+              <p className="text-center">
+                The North Star shines bright in the night sky, a true friend to
+                those travelin’ by darkness. Its light points the way to
+                freedom, a beacon of hope for weary souls.
+              </p>
             </div>
             <div className="flex flex-col">
-              <div className="border rounded-full border-scheme-700 w-10 h-10 items-center justify-center mx-auto">
+              <div className="border mb-2  rounded-full border-scheme-700 w-20 h-20 items-center justify-center mx-auto">
                 <Clock
                   size={24}
-                  className="mt-1 h-4/5 w-4/5 mx-auto my-auto color-scheme-700"
+                  className="mt-2 h-4/5 w-4/5 mx-auto my-auto color-scheme-700"
                 ></Clock>
               </div>
-              <p className="text-center">Fastest path</p>
+              <p className="text-center">
+                Timing is everything when makin’ this perilous journey. Move too
+                soon, and you risk being caught; wait too long, and chances slip
+                away. The clock keeps watch o’er every step taken.
+              </p>
             </div>
           </div>
         </div>
