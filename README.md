@@ -1,7 +1,5 @@
-Gotcha! Here's the entire `README.md` content in a single code block for easy copy-pasting:
-
 ````markdown
-# My Next.js + Tailwind CSS Project
+# HackForsyth Next.js + Tailwind CSS Project
 
 This is a basic Next.js 13+ project configured with TypeScript and Tailwind CSS.
 
